@@ -23,7 +23,7 @@ function Dishes() {
           viewport={{once:false, amount:0.7}}
         className=' lg:w-1/4  p-6 rounded-2xl lg:text-start text-center'>
           <h2 className=' text-orange-500 text-4xl font-bold  mb-3'>Our Special Dishes</h2>
-          <p className=' text-black text-base text-wrap'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus praesentium iste 
+          <p className=' text-white text-base text-wrap'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus praesentium iste 
             suscipit dicta quibusdam sit at nulla iusto, atque laboriosam magnam corporis omnis.
              Aliquam laudantium dicta at deleniti? Repellat, sunt!</p>
 
