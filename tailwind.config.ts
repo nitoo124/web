@@ -9,9 +9,17 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "var(--background)",
+        secondary: "#111111",
       },
+      boxShadow : {
+        '3xl' : '25px 35px 50px -15px rgba(0,0,0,0.3)',
+        '4xl' : '10px 10px 10px -5px gray' 
+      },
+      textShadow : {
+        '3xl' : '25px 35px 50px -15px rgba(0,0,0,0.3)',
+        '4xl' : '10px 10px 10px -5px white' 
+      }
     },
   },
   plugins: [],
