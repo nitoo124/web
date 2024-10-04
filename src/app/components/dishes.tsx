@@ -16,11 +16,15 @@ function Dishes() {
 
       <div className=' flex lg:flex-row flex-col justify-between items-start gap-10   '>
         {/* Content section */}
-        <section 
+        <motion.section
+        initial="hidden"
+        whileInView="show"
+        variants={fadeIn('up', 0.2)} // direction aur delay pass karein
+        viewport={{once:false, amount:0.5}} 
          
-        className=' lg:w-1/4  p-6 rounded-2xl lg:text-start text-center'>
+        className=' bg-black  md:bg-white  lg:w-1/4  p-6 rounded-2xl lg:text-start text-center'>
           <h2 className=' text-orange-500 text-4xl font-bold  mb-3'>Our Special Dishes</h2>
-          <p className=' text-black text-base text-wrap'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus praesentium iste 
+          <p className=' text-white md:text-black text-base text-wrap'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus praesentium iste 
             suscipit dicta quibusdam sit at nulla iusto, atque laboriosam magnam corporis omnis.
              Aliquam laudantium dicta at deleniti? Repellat, sunt!</p>
 
@@ -28,7 +32,7 @@ function Dishes() {
           < Button text=' Order Now!'/>
             </div> 
 
-        </section>
+        </motion.section >
 
         {/* Dishes section */}
         <section className='  w-full lg:w-3/4 grid lg:grid-cols-3 md:grid-cols-3 justify-center 
